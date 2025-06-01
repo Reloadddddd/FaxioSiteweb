@@ -1,8 +1,8 @@
-// next.config.js
+// next.config.cjs
 const nextConfig = {
   reactStrictMode: true,
   images: { domains: ['...'] },
   // etc...
 };
 
-export default nextConfig;
+module.exports = nextConfig;
