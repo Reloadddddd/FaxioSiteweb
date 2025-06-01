@@ -1,6 +1,10 @@
 [build]
-  publish = "dist"
   command = "npm run build"
+  publish = "dist" # adapte si tu utilises un autre dossier comme `out`, `build`, etc.
 
 [context.production.environment]
+  NODE_VERSION = "18.18.2"
   PHP_VERSION = "8.3"
+  PYTHON_VERSION = "3.10"
+  RUBY_VERSION = "3.2.2"
+  GO_VERSION = "1.21"
