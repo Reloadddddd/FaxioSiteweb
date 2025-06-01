@@ -1,10 +1,8 @@
-/** @type {import('next').NextConfig} */
+// next.config.js
 const nextConfig = {
-  output: 'export',
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  images: { unoptimized: true },
+  reactStrictMode: true,
+  images: { domains: ['...'] },
+  // etc...
 };
 
-module.exports = nextConfig;
+export default nextConfig;
