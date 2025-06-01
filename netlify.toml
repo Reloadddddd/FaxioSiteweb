@@ -1,6 +1,6 @@
 [build]
+  publish = "dist"
   command = "npm run build"
-  publish = ".next"
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+[context.production.environment]
+  PHP_VERSION = "8.3"
